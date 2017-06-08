@@ -24,6 +24,8 @@ void EjercicioVGeneral::btJavier_Click(Win::Event& e)
 
 void EjercicioVGeneral::btJesus_Click(Win::Event& e)
 {
+	Ejercicio9Dlg jesus;
+	jesus.BeginDialog(hWnd);
 }
 
 void EjercicioVGeneral::btAdri_Click(Win::Event& e)
