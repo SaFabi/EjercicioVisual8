@@ -18,6 +18,8 @@ void EjercicioVGeneral::btAngel_Click(Win::Event& e)
 
 void EjercicioVGeneral::btJavier_Click(Win::Event& e)
 {
+	JavierDlg objDlg;
+	objDlg.BeginDialog(hWnd);
 }
 
 void EjercicioVGeneral::btJesus_Click(Win::Event& e)
